@@ -3,10 +3,12 @@ import './App.css';
 
 function App() {
   return (
-    <div className='App'>
-      <Typography variant='h4'>This is my app</Typography>
-      <Typography>Hit the like button</Typography>
-      <Button color='primary' variant='contained'>
+    <div className='App' style={{ bgColor: 'myCustomColor' }}>
+      <Typography variant='myVariant'>This is my app</Typography>
+      <Typography sx={{ color: 'myCustomColor' }}>
+        Hit the like button
+      </Typography>
+      <Button sx={{ p: 10 }} color='secondary' variant='contained'>
         Hello MUI v5
       </Button>
     </div>
