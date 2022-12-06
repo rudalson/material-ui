@@ -27,6 +27,7 @@ const theme = createTheme({
       color: orange[500],
     },
   },
+  // spacing: 1,
 });
 
 root.render(
